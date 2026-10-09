@@ -4,7 +4,7 @@ REST API sederhana untuk **pencatatan peminjaman buku perpustakaan**, dibangun d
 
 > Responsi Praktikum Pemrograman Perangkat Bergerak (PPB) 2026
 
-🔗 **Base URL Deployment:** `https://<nama-proyek>.vercel.app` ← _ganti dengan URL Vercel Anda_
+🔗 **Base URL Deployment:** `https://library-loan-api-kappa.vercel.app` ← _ganti dengan URL Vercel Anda_
 
 ---
 
@@ -285,7 +285,7 @@ atau cukup `{ "status": "Dikembalikan" }` (return_date otomatis hari ini).
 1. Push repository ke GitHub (pastikan `.env` **tidak** ikut ter-commit).
 2. Vercel → **Add New → Project** → import repository.
 3. Tambahkan **Environment Variables** `SUPABASE_URL` dan `SUPABASE_KEY`.
-4. Klik **Deploy**, lalu uji `https://<nama-proyek>.vercel.app/api/loans`.
+4. Klik **Deploy**, lalu uji `https://library-loan-api-kappa.vercel.app/api/loans`.
 
 ---
 
@@ -300,10 +300,10 @@ atau cukup `{ "status": "Dikembalikan" }` (return_date otomatis hari ini).
 
 ## 8. Link Deployment
 
-🌐 **Vercel:** `https://<nama-proyek>.vercel.app`
+🌐 **Vercel:** `https://library-loan-api-kappa.vercel.app`
 
 | Coba langsung | |
 |---|---|
-| Info API | `https://<nama-proyek>.vercel.app/` |
-| Semua pinjaman | `https://<nama-proyek>.vercel.app/api/loans` |
-| Pinjaman terlambat | `https://<nama-proyek>.vercel.app/api/loans?status=Terlambat` |
+| Info API | `https://library-loan-api-kappa.vercel.app/` |
+| Semua pinjaman | `https://library-loan-api-kappa.vercel.app/api/loans` |
+| Pinjaman terlambat | `https://library-loan-api-kappa.vercel.app/api/loans?status=Terlambat` |
